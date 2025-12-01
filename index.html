@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pijakan Prima.com</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!--Navbar start-->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">Kopi<span>Ceban</span>.</a>
+
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#produk">Produk</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!--Navbar end-->
+
+    <!-- Hero Section start -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Temukan Kenikmatan Sejati <span>Dalam Setiap Tegukan</span></h1>
+        <p>
+          Nikmati kopi pilihan yang diracik dengan sempurna untuk memulai hari Anda dengan semangat. Dari biji kopi terbaik hingga proses penyeduhan yang cermat, kami menghadirkan cita rasa yang tak terlupakan.
+        </p>
+      </main>
+    </section>
+    <!-- Hero Section end -->
+
+    <!-- About Section start -->
+    <section id="about" class="about">
+      <h2><span>Tentang</span> Kami</h2>
+
+      <div class="row">
+        <div class="about-img">
+          <img src="img/tentang-kami.png" alt="Tentang Kami" />
+        </div>
+        <div class="content">
+          <h3>Kenapa memilih kopi kami?</h3>
+          <p>
+            Kopi Ceban hadir sebagai tempat terbaik untuk menikmati secangkir kopi berkualitas dengan cita rasa otentik.
+            Kami meracik setiap minuman dengan penuh perhatian, menggunakan biji kopi pilihan dari petani lokal.
+          </p>
+          <p>
+            Kami percaya bahwa kopi bukan sekadar minuman, tetapi juga pengalaman yang menyatukan cerita dan suasana.
+            Dengan suasana nyaman dan pelayanan ramah, kami ingin menjadi bagian dari momen istimewamu setiap hari.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- About Section end -->
+
+    <!-- Produk Section start -->
+    <section id="produk" class="produk">
+      <h2><span>Produk</span> Kami</h2>
+      <p>
+        Kopi kami punya banyak pilihan, dari yang pahit mantap kayak espresso sampai yang manis creamy kayak kopi susu gula aren. 
+        Semua diracik dengan cinta dari biji kopi pilihan biar rasanya selalu nagih!
+      </p>
+
+      <div class="row">
+        <div class="produk-card">
+          <img src="img/produk/skm300.png" alt="Es Kopi susu" class="produk-card-img" />
+          <h3 class="produk-card-title">- Es Kopi Susu -</h3>
+          <p class="produk-card-price">Rp. 10.000</p>
+        </div>
+
+        <div class="produk-card">
+          <img src="img/produk/soda300.png" alt="Americano+soda" class="produk-card-img" />
+          <h3 class="produk-card-title">- Americano+Soda -</h3>
+          <p class="produk-card-price">Rp. 10.000</p>
+        </div>
+
+        <div class="produk-card">
+          <img src="img/produk/americano+madu.jpg" alt="Americano+Madu" class="produk-card-img" />
+          <h3 class="produk-card-title">- Americano+Madu -</h3>
+          <p class="produk-card-price">Rp. 10.000</p>
+        </div>
+
+        <div class="produk-card">
+          <img src="img/produk/susu+aren.jpg" alt="Es Kopi Susu+Gula Aren" class="produk-card-img" />
+          <h3 class="produk-card-title">- Es Kopi Susu + Gula Aren -</h3>
+          <p class="produk-card-price">Rp. 10.000</p>
+        </div>
+
+        <div class="produk-card">
+          <img src="img/produk/Hot Americano+SKM.png" alt="Hot Americano + SKM" class="produk-card-img" />
+          <h3 class="produk-card-title">- Hot Americano + SKM -</h3>
+          <p class="produk-card-price">Rp. 10.000</p>
+        </div>
+      </div>
+    </section>
+    <!-- Produk Section end -->
+
+    <!-- Contact Section start -->
+    <section id="contact" class="contact">
+      <h2><span>Kontak</span> Kami</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, accusantium.
+      </p>
+
+      <div class="row">
+        <iframe
+          src="https://maps.app.goo.gl/daHAqnjQYgJSq7CY8"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"
+        ></iframe>
+
+        <form onsubmit="sendWA(event)">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="nama" required />
+          </div>
+
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="text" placeholder="email" required />
+          </div>
+
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="text" placeholder="no hp" required />
+          </div>
+
+          <button type="submit" class="btn">Kirim Pesan</button>
+        </form>
+      </div>
+    </section>
+    <!-- Contact Section end -->
+
+    <!-- Footer start -->
+    <footer>
+      <div class="sosials">
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="twitter"></i></a>
+        <a href="#"><i data-feather="facebook"></i></a>
+        <a href="#"><i data-feather="youtube"></i></a>
+      </div>
+
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#produk">Produk</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="credit">
+        <p>Created by <a href="">erwingutawa</a>. | &copy; 2025.</p>
+      </div>
+    </footer>
+    <!-- Footer end -->
+
+    <!-- Feather Icons Replace -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- Fungsi WhatsApp -->
+    <script>
+      let nomorTujuan = "6281234567890"; // nomor tujuan WA
+
+      function sendWA(e) {
+        e.preventDefault();
+
+        const nama = document.querySelector('input[placeholder="nama"]').value;
+        const email = document.querySelector('input[placeholder="email"]').value;
+        const hp = document.querySelector('input[placeholder="no hp"]').value;
+
+        const pesan =
+          "Halo Admin,%0A%0A" +
+          "Saya ingin memesan kopi.%0A%0A" +
+          "Nama : " + nama + "%0A" +
+          "Email : " + email + "%0A" +
+          "No HP : " + hp;
+
+        window.open(`https://wa.me/${nomorTujuan}?text=${pesan}`);
+      }
+    </script>
+
+    <!-- My Javascript -->
+    <script src="js/script.js"></script>
+
+  </body>
+</html>
